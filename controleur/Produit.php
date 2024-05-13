@@ -1,0 +1,1 @@
+<h1>Je suis le gestionnaire d'actions Produit</h1>
