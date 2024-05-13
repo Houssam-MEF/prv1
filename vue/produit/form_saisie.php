@@ -1,18 +1,18 @@
 <center>
-    <h1>Ajouter un visiteur</h1>
-    <form action="../controleur/Visiteur.php?action=ajouter" method="post">
+    <h1>Ajouter un produit</h1>
+    <form action="ajouter" method="post">
      <table>
         <tr>
-            <td>Nom</td>
-            <td><input type="text" name="nom" id=""></td>
+            <td>Libelle</td>
+            <td><input type="text" name="libelle" id=""></td>
         </tr>
         <tr>
-            <td>Prénom</td>
-            <td><input type="text" name="prenom" id=""></td>
+            <td>Prix</td>
+            <td><input type="text" name="prix" id=""></td>
         </tr>
         <tr>
-            <td>Email</td>
-            <td><input type="email" name="email" id=""></td>
+            <td>Stock</td>
+            <td><input type="number" name="stock" id=""></td>
         </tr>
         <tr>
             <td><input type="submit" value="Envoyer"></td>
